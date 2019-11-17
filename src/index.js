@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Nihao from './Whatever'
+import App from './App(1)';
+import FirstPage from './First';
+import Third from './Third';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+import Thank from './Thank'
 
 
 
 const links = (
     <Router>
-        <Route exact path='/' component={Nihao}/>
-        <Route exact path='/ha' component={App}/>
+        <Route exact path='/' component={FirstPage}/>
+        <Route exact path='/second-page' component={App}/>
+        <Route exact path='/third-page' component={Third}/>
+        <Route exaxt path='/thank-you-for-your-feedback' component={Thank}/>
     </Router>
 )
 ReactDOM.render(links, document.getElementById('root'));

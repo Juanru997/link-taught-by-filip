@@ -1,0 +1,154 @@
+.Fen{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+.Appse {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  height: 2000px;
+  background-image: url("https://img.zcool.cn/community/01546456541c9b32f87512f6889dcb.gif");
+  background-size: cover;
+  background-repeat: repeat;
+  position: relative;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #282c34;
+}
+    
+#text{
+  margin-left: 100px; 
+  font-size: calc(25px);
+  font-family:"rockwell";
+
+}
+
+#headline{
+  margin-left: 100px; 
+  font-family: "rockwell";
+  font-size: calc(80px + 2vmin);
+}
+
+#headline {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 15s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color:green; left:0px; top:0px;}
+  25%  {background-color:yellow; left:100px; top:0px;}
+  50%  {background-color:blue; left:100px; top:100px;}
+  75%  {background-color:red; left:0px; top:100px;}
+  100% {background-color:green; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:green; left:0px; top:0px;}
+  25%  {background-color:yellow; left:100px; top:0px;}
+  50%  {background-color:blue; left:100px; top:100px;}
+  75%  {background-color:red; left:0px; top:100px;}
+  100% {background-color:green; left:0px; top:0px;}
+}
+
+#diiv{
+  margin-left: 100px; 
+  position: absolute;
+  top: 0%;
+  text-align: left;
+  left: 0%;
+}
+
+
+.ovalVert {
+  background: black;
+  height: 80px;
+  width: 40px;			
+  -moz-border-radius: 20px/40px;
+  -webkit-border-radius:20px/40px;
+  border-radius: 20px/40px;
+}
+
+#new{
+  padding-left:90px;
+  margin-left: 10px; 
+  font-size:calc(35px);
+  color:black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#semicircle{ 
+  width: 100px; 
+  height: 50px; 
+  background:green; 
+  -moz-border-radius: 100px 100px 0 0; 
+  -webkit-border-radius:  100px 100px 0 0; 
+  border-radius:  100px 100px 0 0; 
+}
+
+.idea{
+  
+ padding-top: 350px;
+ padding-left:200px;
+  font-size:22px;
+  color:black;
+  font-family:'Courier New', Courier, monospace;
+  line-height: 50px;
+}
+
+
+  
+
+
+.myButton {
+  padding-left:550px;
+  font-size: 100px;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.Iphone{
+  
+  padding-right: 500px;
+
+}
