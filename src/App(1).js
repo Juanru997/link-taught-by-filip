@@ -15,8 +15,19 @@ function App() {
 
 function Content(){
   return(
+    <html>
+
+    
+   <head>
+     <style>
+@import url('https://fonts.googleapis.com/css?family=Tomorrow|Turret+Road|ZCOOL+KuaiLe&display=swap');
+</style>
+
+   </head>
+
    
-<div className="Appse">
+   <body>
+   <div className="Appse">
 <div className="Fen">
 
   <div id="diiv">
@@ -34,8 +45,11 @@ function Content(){
 </div>
 <img src="https://i.loli.net/2019/11/17/rVMNZwmIWcyfoKS.png"  height="700vw"/>
     </div>
-  
+   </body>
+   
 
+
+    </html>
 
   )
 

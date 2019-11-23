@@ -32,10 +32,9 @@
   height: 200px;
   /* align-items: center;
   justify-content: center; */
-
-  color: black;
-
+  /* color: black; */
 }
+
 .App-header {
   /* background-color: #282c34; */
   min-height: 100vh;
@@ -55,10 +54,21 @@
 }
 
 .Firstpage{
-  background-image: url(https://i.loli.net/2019/11/18/RkLIo5Wnh8VO2bF.gif);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background:rgb(255, 229, 12);
+  /* background-image: url(https://i.loli.net/2019/11/23/cBMkXOY4GNC6ILD.gif); */
+  /* background-repeat: no-repeat;
+  background-size: 100%; */
   display: flex;
   flex-direction: row;
 }
 
+
+.SurfingHand{
+  width: 8vw;
+}
+
+.Ka{
+  width: 8vw;
+  top: 100px;
+  right: -350px;
+}

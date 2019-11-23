@@ -39,7 +39,7 @@
 
 #headline{
   margin-left: 100px; 
-  font-family: "rockwell";
+  font-family: 'ZCOOL KuaiLe', cursive;
   font-size: calc(80px + 2vmin);
 }
 
@@ -52,7 +52,9 @@
   -webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
   animation-name: example;
   animation-duration: 15s;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Tomorrow', sans-serif;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+  /* font-family: 'ZCOOL KuaiLe', cursive; */
 }
 
 /* Safari 4.0 - 8.0 */
@@ -114,7 +116,8 @@
  padding-left:200px;
   font-size:22px;
   color:black;
-  font-family:'Courier New', Courier, monospace;
+  /* font-family:'Courier New', Courier, monospace; */
+  font-family: 'Tomorrow', sans-serif;
   line-height: 50px;
 }
 
@@ -134,7 +137,7 @@
 	color:white;
 	font-family:Arial;
 	font-size:20px;
-	font-weight:bold;
+  font-weight:bold;
 	padding:13px 32px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a;
