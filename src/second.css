@@ -4,14 +4,23 @@
 
 }
 
+.descr{
+  margin-top: 10vh;
+  margin-bottom: 20vh;
 
+}
+ 
+.how{
+  margin-top: 15vh;
+  font-size: 5vh;
+}
 
 .Appse {
   display: flex;
   flex-direction: row;
   text-align: left;
   height: 2000px;
-  background-image: url("https://img.zcool.cn/community/01546456541c9b32f87512f6889dcb.gif");
+  background-image: url("https://i.loli.net/2019/11/23/kgzAmoI8LZ1ydjx.gif");
   background-size: cover;
   background-repeat: repeat;
   position: relative;
@@ -99,7 +108,8 @@
   margin-left: 10px; 
   font-size:calc(35px);
   color:black;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+  font-family: 'Tomorrow', sans-serif;
 }
 #semicircle{ 
   width: 100px; 
@@ -128,14 +138,14 @@
 .myButton {
   padding-left:550px;
   font-size: 100px;
-	box-shadow: 0px 10px 14px -7px #276873;
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#599bb3;
+	box-shadow: 0px 10px 14px -7px rgb(140, 84, 125);
+	background:linear-gradient(to bottom, rgb(140, 84, 125) 5%, rgb(140, 84, 125) 100%);
+	background-color:rgb(140, 84, 125);
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
 	color:white;
-	font-family:Arial;
+	font-family: 'Tomorrow', sans-serif;
 	font-size:20px;
   font-weight:bold;
 	padding:13px 32px;
@@ -143,8 +153,8 @@
 	text-shadow:0px 1px 0px #3d768a;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
+	background:linear-gradient(to bottom, rgb(242, 142, 133) 5%, rgb(242, 142, 133) 100%);
+	background-color:rgb(242, 142, 133);
 }
 .myButton:active {
 	position:relative;
