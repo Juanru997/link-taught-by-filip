@@ -3,3 +3,9 @@
     font-size:60px;
     margin-top:100px;
 }
+.Thank{
+    /* background-image:url("https://i.loli.net/2019/12/06/jIGE2MBVnNwaFD5.jpg"); */
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}

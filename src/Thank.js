@@ -11,6 +11,8 @@ function Thank() {
           Thank you for your feedback!
         </div>
 
+        <img src="https://i.loli.net/2019/12/06/jIGE2MBVnNwaFD5.jpg" />
+
     </div>
   );
 }
