@@ -77,3 +77,124 @@
   background-color: #8064A2 !important;
   border-color: #8064A2 ;
 }
+
+/*@media only screen and (max-width: 600px) {
+  .App {
+    width: 20%;
+  }
+.carrd{
+
+}
+
+}*/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 319px) and (max-width: 600px) {
+  
+  .carrrd.card{
+      /* position: fixed; 
+      bottom: 0;
+      width: 100%;*/
+      top: 0;
+      left: 0; 
+
+  }
+
+  .Firstpage {
+    flex-wrap: wrap;
+  }
+
+
+  
+  .SurfingHand, .Ka{
+    width: 100%;
+    height: 50vh;
+  }
+
+  .Ka .carrrd {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Ka .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .SurfingHand img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .idea {
+    padding: 0;
+  }
+
+  #diiv {
+    position: relative;
+  }
+
+  .Fen {
+    flex-direction: column;
+  }
+
+  .Appse {
+    height: auto;
+  }
+
+  .Appse img:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: auto;
+  }
+
+  #headline {
+    margin-left: 70px;
+  }
+
+  .idea {
+    padding: 40px 20px;
+  }
+
+
+  .descr {
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  .how {
+    padding-top: 15px;
+  }
+
+  .idea > * {
+    margin: 0;
+    padding: 20px 0;
+  }
+/* 
+  .myButton {
+    padding: 20px 0;
+  } */
+  .Thank .Font {
+    height: 50vh;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+  }
+  .Thank > img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+}
